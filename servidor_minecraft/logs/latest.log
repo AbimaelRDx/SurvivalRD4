@@ -178,3 +178,8 @@
 [31Dec2024 21:46:42.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ronsita_UxU> mas bug*
 [31Dec2024 21:46:50.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ronsita_UxU> ah
 [31Dec2024 21:47:28.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to Ronsita_UxU: ¿Qué dices? Soy el servidor, ni que fuera Abimael escribiendo esto.
+[31Dec2024 21:51:12.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown item 'minecraft:'
+[31Dec2024 21:51:12.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ...nsita_UxU  minecraft:poisonous_potato{display:{Name:"{\"text\":\"Hola:3, disfruta tu cena para fin de año. (es esta patata)\"}"}} 1<--[HERE]
+[31Dec2024 21:51:49.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 1 [Hola:3, disfruta tu cena para fin de año. (es esta patata)] to Ronsita_UxU
+[31Dec2024 21:54:51.535] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ronsita_UxU lost connection: Disconnected
+[31Dec2024 21:54:51.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ronsita_UxU left the game

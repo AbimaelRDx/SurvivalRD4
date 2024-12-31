@@ -200,3 +200,22 @@
 [31Dec2024 22:38:46.981] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to Ronsita_UxU: (Revisando jugadores activos..)
 [31Dec2024 22:39:18.730] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to Ronsita_UxU: El server va a cambiar de servicio, es necesario que te salgas porque el server va a apagarse.
 [31Dec2024 22:39:39.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to Ronsita_UxU: Esto no es broma, salte
+[31Dec2024 22:40:31.830] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ronsita_UxU lost connection: Kicked by an operator
+[31Dec2024 22:40:31.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ronsita_UxU left the game
+[31Dec2024 22:40:31.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kicked Ronsita_UxU: Kicked by an operator
+[31Dec2024 22:40:31.863] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[31Dec2024 22:40:35.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[31Dec2024 22:40:35.356] [Config file watcher thread/INFO] [portb.configlib.ConfigLib/]: Watcher has shut down
+[31Dec2024 22:40:35.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[31Dec2024 22:40:35.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[31Dec2024 22:40:35.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[31Dec2024 22:40:35.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[31Dec2024 22:40:36.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/twilightforest:twilight_forest
+[31Dec2024 22:40:36.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[31Dec2024 22:40:36.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[31Dec2024 22:40:36.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[31Dec2024 22:40:36.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
+[31Dec2024 22:40:36.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[31Dec2024 22:40:36.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[31Dec2024 22:40:36.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[31Dec2024 22:40:36.050] [Server thread/INFO] [WebDisplays/]: Miniserv server stopped

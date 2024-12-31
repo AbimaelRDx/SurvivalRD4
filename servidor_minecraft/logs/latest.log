@@ -183,3 +183,11 @@
 [31Dec2024 21:51:49.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 1 [Hola:3, disfruta tu cena para fin de año. (es esta patata)] to Ronsita_UxU
 [31Dec2024 21:54:51.535] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ronsita_UxU lost connection: Disconnected
 [31Dec2024 21:54:51.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ronsita_UxU left the game
+[31Dec2024 22:00:34.801] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@500b50ed
+[31Dec2024 22:00:34.813] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ronsita_UxU[/127.114.223.51:45725] logged in with entity id 3361 at (950.5148614340591, 70.0, -23.206313086827087)
+[31Dec2024 22:00:34.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ronsita_UxU joined the game
+[31Dec2024 22:00:34.843] [Server thread/INFO] [Jade/]: Syncing config to Ronsita_UxU (c7558948-ea69-3d8c-b711-6d3ac16e1a94)
+[31Dec2024 22:04:40.381] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/3512, l='ServerLevel[world]', x=943.19, y=90.00, z=96.70] died, message: 'Villager was slain by Fire Dragon'
+[31Dec2024 22:04:47.534] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/3500, l='ServerLevel[world]', x=921.89, y=69.00, z=38.21] died, message: 'Farmer was turned into KFC by Fire Dragon'
+[31Dec2024 22:04:55.426] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/3437, l='ServerLevel[world]', x=880.71, y=84.94, z=40.96] died, message: 'Farmer was burnt to a crisp whilst fighting Fire Dragon'
+[31Dec2024 22:05:08.831] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/3497, l='ServerLevel[world]', x=868.27, y=89.48, z=74.11] died, message: 'Villager was slain by Fire Dragon'

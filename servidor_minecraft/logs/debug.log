@@ -5735,3 +5735,18 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [31Dec2024 22:20:18.769] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [31Dec2024 22:25:18.778] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [31Dec2024 22:25:18.790] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[31Dec2024 22:30:18.789] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[31Dec2024 22:30:18.806] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[31Dec2024 22:30:25.081] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Leatherworker'/9946, l='ServerLevel[world]', x=1253.85, y=72.94, z=221.47] died, message: 'Leatherworker was slain by Lightning Dragon'
+[31Dec2024 22:30:30.840] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/9951, l='ServerLevel[world]', x=1230.38, y=73.66, z=218.46] died, message: 'Farmer was energized by Lightning Dragon'
+[31Dec2024 22:30:43.791] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/9953, l='ServerLevel[world]', x=1264.52, y=74.31, z=214.30] died, message: 'Villager was slain by Lightning Dragon'
+[31Dec2024 22:30:45.935] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Leatherworker'/9204, l='ServerLevel[world]', x=1255.46, y=75.00, z=208.30] died, message: 'Leatherworker was energized by Lightning Dragon'
+[31Dec2024 22:31:57.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ronsita_UxU was struck with lightning by Lightning Dragon
+[31Dec2024 22:31:59.781] [Server thread/DEBUG] [twilightforest/]: Player Ronsita_UxU (c7558948-ea69-3d8c-b711-6d3ac16e1a94) respawned and received items held in storage
+[31Dec2024 22:35:07.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ronsita_UxU tried to swim in lava
+[31Dec2024 22:35:08.957] [Server thread/DEBUG] [twilightforest/]: Player Ronsita_UxU (c7558948-ea69-3d8c-b711-6d3ac16e1a94) respawned and received items held in storage
+[31Dec2024 22:35:18.754] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[31Dec2024 22:35:18.764] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[31Dec2024 22:38:46.981] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to Ronsita_UxU: (Revisando jugadores activos..)
+[31Dec2024 22:39:18.730] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to Ronsita_UxU: El server va a cambiar de servicio, es necesario que te salgas porque el server va a apagarse.
+[31Dec2024 22:39:39.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to Ronsita_UxU: Esto no es broma, salte

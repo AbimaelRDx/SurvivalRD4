@@ -191,3 +191,12 @@
 [31Dec2024 22:04:47.534] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/3500, l='ServerLevel[world]', x=921.89, y=69.00, z=38.21] died, message: 'Farmer was turned into KFC by Fire Dragon'
 [31Dec2024 22:04:55.426] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/3437, l='ServerLevel[world]', x=880.71, y=84.94, z=40.96] died, message: 'Farmer was burnt to a crisp whilst fighting Fire Dragon'
 [31Dec2024 22:05:08.831] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/3497, l='ServerLevel[world]', x=868.27, y=89.48, z=74.11] died, message: 'Villager was slain by Fire Dragon'
+[31Dec2024 22:30:25.081] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Leatherworker'/9946, l='ServerLevel[world]', x=1253.85, y=72.94, z=221.47] died, message: 'Leatherworker was slain by Lightning Dragon'
+[31Dec2024 22:30:30.840] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/9951, l='ServerLevel[world]', x=1230.38, y=73.66, z=218.46] died, message: 'Farmer was energized by Lightning Dragon'
+[31Dec2024 22:30:43.791] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/9953, l='ServerLevel[world]', x=1264.52, y=74.31, z=214.30] died, message: 'Villager was slain by Lightning Dragon'
+[31Dec2024 22:30:45.935] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Leatherworker'/9204, l='ServerLevel[world]', x=1255.46, y=75.00, z=208.30] died, message: 'Leatherworker was energized by Lightning Dragon'
+[31Dec2024 22:31:57.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ronsita_UxU was struck with lightning by Lightning Dragon
+[31Dec2024 22:35:07.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ronsita_UxU tried to swim in lava
+[31Dec2024 22:38:46.981] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to Ronsita_UxU: (Revisando jugadores activos..)
+[31Dec2024 22:39:18.730] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to Ronsita_UxU: El server va a cambiar de servicio, es necesario que te salgas porque el server va a apagarse.
+[31Dec2024 22:39:39.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to Ronsita_UxU: Esto no es broma, salte

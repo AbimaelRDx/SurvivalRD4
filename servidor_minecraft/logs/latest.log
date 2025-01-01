@@ -1,221 +1,191 @@
-[31Dec2024 21:39:24.092] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.4.2, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
-[31Dec2024 21:39:24.095] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 21.0.5 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
-[31Dec2024 21:39:24.640] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/SurvivalRD4/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
-[31Dec2024 21:39:25.122] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/SurvivalRD4/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.19.2-43.4.2/fmlcore-1.19.2-43.4.2.jar is missing mods.toml file
-[31Dec2024 21:39:25.124] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/SurvivalRD4/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.4.2/javafmllanguage-1.19.2-43.4.2.jar is missing mods.toml file
-[31Dec2024 21:39:25.125] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/SurvivalRD4/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.4.2/lowcodelanguage-1.19.2-43.4.2.jar is missing mods.toml file
-[31Dec2024 21:39:25.126] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/SurvivalRD4/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.19.2-43.4.2/mclanguage-1.19.2-43.4.2.jar is missing mods.toml file
-[31Dec2024 21:39:25.344] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 9 dependencies adding them to mods collection
-[31Dec2024 21:39:27.655] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[31Dec2024 21:39:27.883] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [de.maxhenkel.camera.MixinConnector]
-[31Dec2024 21:39:27.887] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [tictim.paraglider.MixinConnector]
-[31Dec2024 21:39:27.889] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
-[31Dec2024 21:39:27.899] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[31Dec2024 21:39:27.918] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for corgilib.forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[31Dec2024 21:39:28.440] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/vanilla.xml
-[31Dec2024 21:39:28.446] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/sophisticated_core.xml
-[31Dec2024 21:39:28.448] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/refinedstorage.xml
-[31Dec2024 21:39:28.451] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/mekanism.xml
-[31Dec2024 21:39:28.454] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/ironfurnaces.xml
-[31Dec2024 21:39:28.456] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/ic2.xml
-[31Dec2024 21:39:28.458] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/computercraft.xml
-[31Dec2024 21:39:28.460] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/assortedstorage.xml
-[31Dec2024 21:39:29.154] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
-[31Dec2024 21:39:29.156] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
-[31Dec2024 21:39:29.157] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer
-[31Dec2024 21:39:29.159] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
-[31Dec2024 21:39:29.160] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
-[31Dec2024 21:39:29.162] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu
-[31Dec2024 21:39:29.163] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
-[31Dec2024 21:39:29.164] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel
-[31Dec2024 21:39:33.591] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
-[31Dec2024 21:39:36.210] [modloading-worker-0/INFO] [MCEF/]: Loading MCEF config...
-[31Dec2024 21:39:36.246] [modloading-worker-0/INFO] [MCEF/]: MCEF is running on server. Nothing to do.
-[31Dec2024 21:39:37.064] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod puzzleslib
-[31Dec2024 21:39:37.502] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.4.2, for MC 1.19.2 with MCP 20220805.130853
-[31Dec2024 21:39:37.503] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.4.2 Initialized
-[31Dec2024 21:39:37.628] [modloading-worker-0/INFO] [xyz.apex.forge.commonality.Mods.CommonalityMod/]: Running Minecraft '1.19.2', & Forge '43.4.2' on Java '21.0.5, Microsoft'
-[31Dec2024 21:39:37.639] [modloading-worker-0/INFO] [TrustedSourceList/]: Loading BlackListed sources from remote... (https://api.stopmodreposts.org/minecraft/sites.txt)
-[31Dec2024 21:39:37.795] [modloading-worker-0/INFO] [TrustManager/]: Loading mod 'apexcore' TrustWorthiness...
-[31Dec2024 21:39:37.797] [modloading-worker-0/FATAL] [TrustManager/]: Could not determine mod trust worthiness, Assuming Jar was downloaded from trusted source!
-[31Dec2024 21:39:37.799] [modloading-worker-0/INFO] [TrustManager/]: Loaded mod 'apexcore' TrustWorthiness: UNKNOWN
-[31Dec2024 21:39:37.915] [modloading-worker-0/INFO] [TrustManager/]: Loading mod 'fantasyfurniture' TrustWorthiness...
-[31Dec2024 21:39:37.916] [modloading-worker-0/FATAL] [TrustManager/]: Could not determine mod trust worthiness, Assuming Jar was downloaded from trusted source!
-[31Dec2024 21:39:37.916] [modloading-worker-0/INFO] [TrustManager/]: Loaded mod 'fantasyfurniture' TrustWorthiness: UNKNOWN
-[31Dec2024 21:39:38.820] [modloading-worker-0/INFO] [TrustedSourceList/]: Loaded 564 BlackListed sources from remote
-[31Dec2024 21:39:38.826] [modloading-worker-0/INFO] [TrustManager/]: Loading mod 'commonality' TrustWorthiness...
-[31Dec2024 21:39:38.827] [modloading-worker-0/FATAL] [TrustManager/]: Could not determine mod trust worthiness, Assuming Jar was downloaded from trusted source!
-[31Dec2024 21:39:38.827] [modloading-worker-0/INFO] [TrustManager/]: Loaded mod 'commonality' TrustWorthiness: UNKNOWN
-[31Dec2024 21:39:43.966] [main/INFO] [evilcraft/]: 2205 possible Broom base combinations are ready for flying!
-[31Dec2024 21:39:45.023] [modloading-worker-0/INFO] [evilcraft/]: Registered packet handler.
-[31Dec2024 21:39:45.029] [modloading-worker-0/INFO] [evilcraft/]: Registered packet handler.
-[31Dec2024 21:39:45.077] [modloading-worker-0/INFO] [CorgiLib/]: Initializing network...
-[31Dec2024 21:39:45.081] [modloading-worker-0/INFO] [CorgiLib/]: Initialized network!
-[31Dec2024 21:39:45.231] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/cyclops-core.json
-[31Dec2024 21:39:45.390] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Found status: UP_TO_DATE Current: 1.19.5 Target: null
-[31Dec2024 21:39:45.391] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Starting version check at https://update.maxhenkel.de/forge/easy_villagers
-[31Dec2024 21:39:45.622] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[31Dec2024 21:39:45.622] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
-[31Dec2024 21:39:45.622] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
-[31Dec2024 21:39:45.623] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
-[31Dec2024 21:39:45.623] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
-[31Dec2024 21:39:45.623] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
-[31Dec2024 21:39:45.624] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
-[31Dec2024 21:39:45.693] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
-[31Dec2024 21:39:45.694] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
-[31Dec2024 21:39:45.697] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
-[31Dec2024 21:39:45.698] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
-[31Dec2024 21:39:45.770] [main/INFO] [terrablender/]: Registered region byg:region_0 to index 4 for type OVERWORLD
-[31Dec2024 21:39:45.771] [main/INFO] [terrablender/]: Registered region byg:region_1 to index 5 for type OVERWORLD
-[31Dec2024 21:39:45.772] [main/INFO] [terrablender/]: Registered region byg:region_2 to index 6 for type OVERWORLD
-[31Dec2024 21:39:45.773] [main/INFO] [terrablender/]: Registered region byg:region_3 to index 7 for type OVERWORLD
-[31Dec2024 21:39:45.815] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
-[31Dec2024 21:39:45.837] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
-[31Dec2024 21:39:45.849] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
-[31Dec2024 21:39:45.852] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.easyvillagers.integration.waila.PluginEasyVillagers
-[31Dec2024 21:39:45.853] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.ForgeJadeWaystonesPlugin
-[31Dec2024 21:39:45.854] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.camera.integration.waila.PluginCamera
-[31Dec2024 21:39:45.854] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.waila.JadeDataProvider
-[31Dec2024 21:39:45.859] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at twilightforest.compat.jade.JadeCompat
-[31Dec2024 21:39:45.921] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Found status: AHEAD Current: 1.19.2-1.1.23 Target: null
-[31Dec2024 21:39:45.921] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [camera] Starting version check at https://update.maxhenkel.de/forge/camera
-[31Dec2024 21:39:46.052] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [camera] Found status: AHEAD Current: 1.19.2-1.0.14 Target: null
-[31Dec2024 21:39:46.053] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
-[31Dec2024 21:39:46.172] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.9.6.1 Target: null
-[31Dec2024 21:39:46.172] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
-[31Dec2024 21:39:46.218] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: AHEAD Current: 8.2.41 Target: null
-[31Dec2024 21:39:46.218] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/evilcraft.json
-[31Dec2024 21:39:46.231] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Found status: UP_TO_DATE Current: 1.2.41 Target: null
-[31Dec2024 21:39:46.232] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Starting version check at https://mrcrayfish.com/modupdatejson?id=cfm
-[31Dec2024 21:39:46.693] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Found status: BETA Current: 7.0.0-pre35 Target: 7.0.0-pre35
-[31Dec2024 21:39:46.693] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
-[31Dec2024 21:39:46.704] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 4.4.3 Target: null
-[31Dec2024 21:39:46.705] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[31Dec2024 21:39:46.784] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.4.2 Target: 43.4.12
-[31Dec2024 21:39:46.785] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [commonality] Starting version check at https://api.modrinth.com/updates/apexcore/forge_updates.json
-[31Dec2024 21:39:46.968] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [commonality] Found status: OUTDATED Current: 4.2.1 Target: 7.3.1
-[31Dec2024 21:39:46.968] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [apexcore] Starting version check at https://api.modrinth.com/updates/apexcore/forge_updates.json
-[31Dec2024 21:39:47.005] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [apexcore] Found status: UP_TO_DATE Current: 7.3.1 Target: null
-[31Dec2024 21:39:47.006] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fantasyfurniture] Starting version check at https://api.modrinth.com/updates/fantasy-furniture/forge_updates.json
-[31Dec2024 21:39:47.116] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fantasyfurniture] Found status: UP_TO_DATE Current: 6.7.0 Target: null
-[31Dec2024 21:39:47.116] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
-[31Dec2024 21:39:47.312] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: BETA Current: 4.2.1518 Target: null
-[31Dec2024 21:39:51.735] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[31Dec2024 21:39:55.350] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/SurvivalRD4/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23179!/assets/.mcassetsroot' uses unexpected schema
-[31Dec2024 21:39:55.351] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/SurvivalRD4/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23179!/data/.mcassetsroot' uses unexpected schema
-[31Dec2024 21:39:59.264] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
-[31Dec2024 21:39:59.308] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
-[31Dec2024 21:39:59.317] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
-[31Dec2024 21:39:59.329] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
-[31Dec2024 21:39:59.368] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
-[31Dec2024 21:39:59.371] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
-[31Dec2024 21:39:59.373] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
-[31Dec2024 21:39:59.379] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
-[31Dec2024 21:39:59.383] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 16 recipes
-[31Dec2024 21:40:00.130] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3571 advancements
-[31Dec2024 21:40:00.137] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
-[31Dec2024 21:40:02.965] [main/INFO] [evilcraft/]: 19 Broom modifiers can be applied!
-[31Dec2024 21:40:03.179] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
-[31Dec2024 21:40:03.180] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[31Dec2024 21:40:03.180] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[31Dec2024 21:40:03.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[31Dec2024 21:40:03.281] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[31Dec2024 21:40:03.335] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[31Dec2024 21:40:03.474] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[31Dec2024 21:40:03.475] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[31Dec2024 21:40:03.476] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[31Dec2024 21:40:03.477] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[31Dec2024 21:40:03.658] [Server thread/INFO] [portb.configlib.ConfigLib/]: Could not find config, falling back to default legacy ruleset
-[31Dec2024 21:40:03.660] [Config file watcher thread/INFO] [portb.configlib.ConfigLib/]: Starting config file watcher
-[31Dec2024 21:40:03.678] [Server thread/WARN] [potionstudios.byg.BYG/]: "minecraft:none" is not a registered villager profession, skipping trade entry...
-[31Dec2024 21:40:03.682] [Server thread/WARN] [potionstudios.byg.BYG/]: "minecraft:nitwit" is not a registered villager profession, skipping trade entry...
-[31Dec2024 21:40:04.371] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[31Dec2024 21:40:04.372] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[31Dec2024 21:40:04.871] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[31Dec2024 21:40:10.144] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Dec2024 21:40:10.146] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Dec2024 21:40:10.147] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Dec2024 21:40:10.147] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Dec2024 21:40:10.148] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Dec2024 21:40:10.149] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Dec2024 21:40:10.149] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Dec2024 21:40:10.150] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Dec2024 21:40:10.150] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Dec2024 21:40:10.151] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Dec2024 21:40:10.152] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Dec2024 21:40:10.372] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Dec2024 21:40:10.872] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 8%
-[31Dec2024 21:40:11.372] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
-[31Dec2024 21:40:11.748] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6876 ms
-[31Dec2024 21:40:11.750] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (8.259s)! For help, type "help"
-[31Dec2024 21:40:11.806] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[31Dec2024 21:40:11.827] [Server thread/INFO] [cyclopscore/]: Loading infobook /data/cyclopscore/info/test.xml
-[31Dec2024 21:40:11.863] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
-[31Dec2024 21:40:11.864] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
-[31Dec2024 21:40:11.865] [Server thread/INFO] [evilcraft/]: Loading infobook /data/evilcraft/info/book.xml
-[31Dec2024 21:40:11.942] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:witherer has no valid items
-[31Dec2024 21:40:11.943] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:hungerer has no valid items
-[31Dec2024 21:40:11.944] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:kamikaze has no valid items
-[31Dec2024 21:40:11.945] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:withershield has no valid items
-[31Dec2024 21:40:58.515] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
-[31Dec2024 21:40:58.570] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@343a1439
-[31Dec2024 21:40:58.594] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: dsjuanca999[/127.38.60.178:45615] logged in with entity id 59 at (595.8168443355654, 64.5625, 517.3798708567997)
-[31Dec2024 21:40:58.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dsjuanca999 joined the game
-[31Dec2024 21:40:58.830] [Server thread/INFO] [Jade/]: Syncing config to dsjuanca999 (4a3cda62-884b-35dc-bb9a-4753e8df7c0f)
-[31Dec2024 21:41:02.732] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4126ms or 82 ticks behind
-[31Dec2024 21:41:11.400] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: dsjuanca999 lost connection: Disconnected
-[31Dec2024 21:41:11.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dsjuanca999 left the game
-[31Dec2024 21:42:04.972] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@26258951
-[31Dec2024 21:42:04.986] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ronsita_UxU[/127.114.223.51:54725] logged in with entity id 361 at (699.080353832552, 76.1212968405392, 180.85004648277362)
-[31Dec2024 21:42:04.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ronsita_UxU joined the game
-[31Dec2024 21:42:05.048] [Server thread/INFO] [Jade/]: Syncing config to Ronsita_UxU (c7558948-ea69-3d8c-b711-6d3ac16e1a94)
-[31Dec2024 21:42:07.706] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2650ms or 53 ticks behind
-[31Dec2024 21:43:03.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to Ronsita_UxU: Te estoy esperando en la cama :3! Bienvenido al servidor.
-[31Dec2024 21:44:42.888] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@4098d0ec[id=<null>,name=GAMERKIANDER,properties={},legacy=false] (/127.19.202.15:53103) lost connection: Disconnected
-[31Dec2024 21:46:14.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to Ronsita_UxU: No mires atras..
-[31Dec2024 21:46:35.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ronsita_UxU> y el waystone xd
-[31Dec2024 21:46:39.386] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ronsita_UxU> ma buf
-[31Dec2024 21:46:42.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ronsita_UxU> mas bug*
-[31Dec2024 21:46:50.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ronsita_UxU> ah
-[31Dec2024 21:47:28.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to Ronsita_UxU: ¿Qué dices? Soy el servidor, ni que fuera Abimael escribiendo esto.
-[31Dec2024 21:51:12.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown item 'minecraft:'
-[31Dec2024 21:51:12.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ...nsita_UxU  minecraft:poisonous_potato{display:{Name:"{\"text\":\"Hola:3, disfruta tu cena para fin de año. (es esta patata)\"}"}} 1<--[HERE]
-[31Dec2024 21:51:49.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 1 [Hola:3, disfruta tu cena para fin de año. (es esta patata)] to Ronsita_UxU
-[31Dec2024 21:54:51.535] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ronsita_UxU lost connection: Disconnected
-[31Dec2024 21:54:51.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ronsita_UxU left the game
-[31Dec2024 22:00:34.801] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@500b50ed
-[31Dec2024 22:00:34.813] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ronsita_UxU[/127.114.223.51:45725] logged in with entity id 3361 at (950.5148614340591, 70.0, -23.206313086827087)
-[31Dec2024 22:00:34.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ronsita_UxU joined the game
-[31Dec2024 22:00:34.843] [Server thread/INFO] [Jade/]: Syncing config to Ronsita_UxU (c7558948-ea69-3d8c-b711-6d3ac16e1a94)
-[31Dec2024 22:04:40.381] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/3512, l='ServerLevel[world]', x=943.19, y=90.00, z=96.70] died, message: 'Villager was slain by Fire Dragon'
-[31Dec2024 22:04:47.534] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/3500, l='ServerLevel[world]', x=921.89, y=69.00, z=38.21] died, message: 'Farmer was turned into KFC by Fire Dragon'
-[31Dec2024 22:04:55.426] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/3437, l='ServerLevel[world]', x=880.71, y=84.94, z=40.96] died, message: 'Farmer was burnt to a crisp whilst fighting Fire Dragon'
-[31Dec2024 22:05:08.831] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/3497, l='ServerLevel[world]', x=868.27, y=89.48, z=74.11] died, message: 'Villager was slain by Fire Dragon'
-[31Dec2024 22:30:25.081] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Leatherworker'/9946, l='ServerLevel[world]', x=1253.85, y=72.94, z=221.47] died, message: 'Leatherworker was slain by Lightning Dragon'
-[31Dec2024 22:30:30.840] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/9951, l='ServerLevel[world]', x=1230.38, y=73.66, z=218.46] died, message: 'Farmer was energized by Lightning Dragon'
-[31Dec2024 22:30:43.791] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/9953, l='ServerLevel[world]', x=1264.52, y=74.31, z=214.30] died, message: 'Villager was slain by Lightning Dragon'
-[31Dec2024 22:30:45.935] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Leatherworker'/9204, l='ServerLevel[world]', x=1255.46, y=75.00, z=208.30] died, message: 'Leatherworker was energized by Lightning Dragon'
-[31Dec2024 22:31:57.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ronsita_UxU was struck with lightning by Lightning Dragon
-[31Dec2024 22:35:07.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ronsita_UxU tried to swim in lava
-[31Dec2024 22:38:46.981] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to Ronsita_UxU: (Revisando jugadores activos..)
-[31Dec2024 22:39:18.730] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to Ronsita_UxU: El server va a cambiar de servicio, es necesario que te salgas porque el server va a apagarse.
-[31Dec2024 22:39:39.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to Ronsita_UxU: Esto no es broma, salte
-[31Dec2024 22:40:31.830] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ronsita_UxU lost connection: Kicked by an operator
-[31Dec2024 22:40:31.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ronsita_UxU left the game
-[31Dec2024 22:40:31.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kicked Ronsita_UxU: Kicked by an operator
-[31Dec2024 22:40:31.863] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[31Dec2024 22:40:35.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[31Dec2024 22:40:35.356] [Config file watcher thread/INFO] [portb.configlib.ConfigLib/]: Watcher has shut down
-[31Dec2024 22:40:35.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[31Dec2024 22:40:35.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[31Dec2024 22:40:35.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[31Dec2024 22:40:35.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[31Dec2024 22:40:36.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/twilightforest:twilight_forest
-[31Dec2024 22:40:36.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[31Dec2024 22:40:36.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[31Dec2024 22:40:36.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[31Dec2024 22:40:36.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
-[31Dec2024 22:40:36.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[31Dec2024 22:40:36.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[31Dec2024 22:40:36.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[31Dec2024 22:40:36.050] [Server thread/INFO] [WebDisplays/]: Miniserv server stopped
+[01Jan2025 16:33:45.719] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.4.2, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
+[01Jan2025 16:33:45.727] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 21.0.5 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[01Jan2025 16:33:49.208] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/SurvivalRD4/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[01Jan2025 16:33:49.739] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/SurvivalRD4/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.19.2-43.4.2/fmlcore-1.19.2-43.4.2.jar is missing mods.toml file
+[01Jan2025 16:33:49.742] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/SurvivalRD4/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.4.2/javafmllanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[01Jan2025 16:33:49.743] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/SurvivalRD4/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.4.2/lowcodelanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[01Jan2025 16:33:49.745] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/SurvivalRD4/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.19.2-43.4.2/mclanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[01Jan2025 16:33:50.031] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 9 dependencies adding them to mods collection
+[01Jan2025 16:33:52.649] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[01Jan2025 16:33:52.871] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [de.maxhenkel.camera.MixinConnector]
+[01Jan2025 16:33:52.873] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [tictim.paraglider.MixinConnector]
+[01Jan2025 16:33:52.874] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
+[01Jan2025 16:33:52.883] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[01Jan2025 16:33:53.202] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for corgilib.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Jan2025 16:33:53.774] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/vanilla.xml
+[01Jan2025 16:33:53.778] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/sophisticated_core.xml
+[01Jan2025 16:33:53.779] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/refinedstorage.xml
+[01Jan2025 16:33:53.782] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/mekanism.xml
+[01Jan2025 16:33:53.787] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/ironfurnaces.xml
+[01Jan2025 16:33:53.788] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/ic2.xml
+[01Jan2025 16:33:53.789] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/computercraft.xml
+[01Jan2025 16:33:53.791] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/assortedstorage.xml
+[01Jan2025 16:33:54.501] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
+[01Jan2025 16:33:54.502] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
+[01Jan2025 16:33:54.502] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer
+[01Jan2025 16:33:54.503] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
+[01Jan2025 16:33:54.503] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
+[01Jan2025 16:33:54.504] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu
+[01Jan2025 16:33:54.505] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
+[01Jan2025 16:33:54.505] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel
+[01Jan2025 16:34:01.737] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[01Jan2025 16:34:04.496] [modloading-worker-0/INFO] [MCEF/]: Loading MCEF config...
+[01Jan2025 16:34:04.576] [modloading-worker-0/INFO] [MCEF/]: MCEF is running on server. Nothing to do.
+[01Jan2025 16:34:05.487] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod puzzleslib
+[01Jan2025 16:34:05.880] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.4.2, for MC 1.19.2 with MCP 20220805.130853
+[01Jan2025 16:34:05.880] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.4.2 Initialized
+[01Jan2025 16:34:06.008] [modloading-worker-0/INFO] [xyz.apex.forge.commonality.Mods.CommonalityMod/]: Running Minecraft '1.19.2', & Forge '43.4.2' on Java '21.0.5, Microsoft'
+[01Jan2025 16:34:06.016] [modloading-worker-0/INFO] [TrustedSourceList/]: Loading BlackListed sources from remote... (https://api.stopmodreposts.org/minecraft/sites.txt)
+[01Jan2025 16:34:06.223] [modloading-worker-0/INFO] [TrustManager/]: Loading mod 'apexcore' TrustWorthiness...
+[01Jan2025 16:34:06.227] [modloading-worker-0/FATAL] [TrustManager/]: Could not determine mod trust worthiness, Assuming Jar was downloaded from trusted source!
+[01Jan2025 16:34:06.229] [modloading-worker-0/INFO] [TrustManager/]: Loaded mod 'apexcore' TrustWorthiness: UNKNOWN
+[01Jan2025 16:34:06.351] [modloading-worker-0/INFO] [TrustManager/]: Loading mod 'fantasyfurniture' TrustWorthiness...
+[01Jan2025 16:34:06.353] [modloading-worker-0/FATAL] [TrustManager/]: Could not determine mod trust worthiness, Assuming Jar was downloaded from trusted source!
+[01Jan2025 16:34:06.353] [modloading-worker-0/INFO] [TrustManager/]: Loaded mod 'fantasyfurniture' TrustWorthiness: UNKNOWN
+[01Jan2025 16:34:07.529] [modloading-worker-0/INFO] [TrustedSourceList/]: Loaded 564 BlackListed sources from remote
+[01Jan2025 16:34:07.529] [modloading-worker-0/INFO] [TrustManager/]: Loading mod 'commonality' TrustWorthiness...
+[01Jan2025 16:34:07.530] [modloading-worker-0/FATAL] [TrustManager/]: Could not determine mod trust worthiness, Assuming Jar was downloaded from trusted source!
+[01Jan2025 16:34:07.530] [modloading-worker-0/INFO] [TrustManager/]: Loaded mod 'commonality' TrustWorthiness: UNKNOWN
+[01Jan2025 16:34:12.519] [main/INFO] [evilcraft/]: 2205 possible Broom base combinations are ready for flying!
+[01Jan2025 16:34:13.349] [modloading-worker-0/INFO] [evilcraft/]: Registered packet handler.
+[01Jan2025 16:34:13.346] [modloading-worker-0/INFO] [evilcraft/]: Registered packet handler.
+[01Jan2025 16:34:13.434] [modloading-worker-0/INFO] [CorgiLib/]: Initializing network...
+[01Jan2025 16:34:13.443] [modloading-worker-0/INFO] [CorgiLib/]: Initialized network!
+[01Jan2025 16:34:13.581] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/cyclops-core.json
+[01Jan2025 16:34:13.857] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Found status: UP_TO_DATE Current: 1.19.5 Target: null
+[01Jan2025 16:34:13.859] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Starting version check at https://update.maxhenkel.de/forge/easy_villagers
+[01Jan2025 16:34:14.068] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[01Jan2025 16:34:14.069] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[01Jan2025 16:34:14.069] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[01Jan2025 16:34:14.069] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[01Jan2025 16:34:14.069] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[01Jan2025 16:34:14.070] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[01Jan2025 16:34:14.070] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[01Jan2025 16:34:14.113] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[01Jan2025 16:34:14.114] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[01Jan2025 16:34:14.115] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[01Jan2025 16:34:14.116] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[01Jan2025 16:34:14.152] [main/INFO] [terrablender/]: Registered region byg:region_0 to index 4 for type OVERWORLD
+[01Jan2025 16:34:14.153] [main/INFO] [terrablender/]: Registered region byg:region_1 to index 5 for type OVERWORLD
+[01Jan2025 16:34:14.154] [main/INFO] [terrablender/]: Registered region byg:region_2 to index 6 for type OVERWORLD
+[01Jan2025 16:34:14.154] [main/INFO] [terrablender/]: Registered region byg:region_3 to index 7 for type OVERWORLD
+[01Jan2025 16:34:14.196] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[01Jan2025 16:34:14.219] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[01Jan2025 16:34:14.229] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[01Jan2025 16:34:14.232] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.easyvillagers.integration.waila.PluginEasyVillagers
+[01Jan2025 16:34:14.233] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.ForgeJadeWaystonesPlugin
+[01Jan2025 16:34:14.233] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.camera.integration.waila.PluginCamera
+[01Jan2025 16:34:14.234] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.waila.JadeDataProvider
+[01Jan2025 16:34:14.235] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at twilightforest.compat.jade.JadeCompat
+[01Jan2025 16:34:14.686] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Found status: AHEAD Current: 1.19.2-1.1.23 Target: null
+[01Jan2025 16:34:14.687] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [camera] Starting version check at https://update.maxhenkel.de/forge/camera
+[01Jan2025 16:34:14.790] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [camera] Found status: AHEAD Current: 1.19.2-1.0.14 Target: null
+[01Jan2025 16:34:14.790] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[01Jan2025 16:34:14.928] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.9.6.1 Target: null
+[01Jan2025 16:34:14.928] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[01Jan2025 16:34:14.990] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: AHEAD Current: 8.2.41 Target: null
+[01Jan2025 16:34:14.991] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/evilcraft.json
+[01Jan2025 16:34:15.005] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Found status: UP_TO_DATE Current: 1.2.41 Target: null
+[01Jan2025 16:34:15.005] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Starting version check at https://mrcrayfish.com/modupdatejson?id=cfm
+[01Jan2025 16:34:15.182] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:975) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:928) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:877) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:848) ~[gson-2.8.9.jar%2370!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.19.2-43.4.2.jar%23180!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) [fmlcore-1.19.2-43.4.2.jar%23180!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:384) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:183) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2370!/:?]
+	... 6 more
+[01Jan2025 16:34:15.183] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[01Jan2025 16:34:15.204] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 4.4.3 Target: null
+[01Jan2025 16:34:15.205] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[01Jan2025 16:34:15.388] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.4.2 Target: 43.4.12
+[01Jan2025 16:34:15.389] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [commonality] Starting version check at https://api.modrinth.com/updates/apexcore/forge_updates.json
+[01Jan2025 16:34:15.548] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [commonality] Found status: OUTDATED Current: 4.2.1 Target: 7.3.1
+[01Jan2025 16:34:15.549] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [apexcore] Starting version check at https://api.modrinth.com/updates/apexcore/forge_updates.json
+[01Jan2025 16:34:15.601] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [apexcore] Found status: UP_TO_DATE Current: 7.3.1 Target: null
+[01Jan2025 16:34:15.601] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fantasyfurniture] Starting version check at https://api.modrinth.com/updates/fantasy-furniture/forge_updates.json
+[01Jan2025 16:34:15.644] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fantasyfurniture] Found status: UP_TO_DATE Current: 6.7.0 Target: null
+[01Jan2025 16:34:15.644] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
+[01Jan2025 16:34:15.884] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: BETA Current: 4.2.1518 Target: null
+[01Jan2025 16:34:22.277] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01Jan2025 16:34:27.140] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/SurvivalRD4/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23179!/assets/.mcassetsroot' uses unexpected schema
+[01Jan2025 16:34:27.142] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/SurvivalRD4/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23179!/data/.mcassetsroot' uses unexpected schema
+[01Jan2025 16:34:31.695] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[01Jan2025 16:34:31.744] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[01Jan2025 16:34:31.755] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[01Jan2025 16:34:31.765] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[01Jan2025 16:34:31.802] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[01Jan2025 16:34:31.804] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[01Jan2025 16:34:31.805] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[01Jan2025 16:34:31.811] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[01Jan2025 16:34:31.815] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 16 recipes
+[01Jan2025 16:34:32.804] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3571 advancements
+[01Jan2025 16:34:32.816] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[01Jan2025 16:34:36.825] [main/INFO] [evilcraft/]: 19 Broom modifiers can be applied!
+[01Jan2025 16:34:37.014] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
+[01Jan2025 16:34:37.016] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[01Jan2025 16:34:37.016] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[01Jan2025 16:34:37.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[01Jan2025 16:34:37.184] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[01Jan2025 16:34:37.228] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[01Jan2025 16:34:37.336] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01Jan2025 16:34:37.336] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[01Jan2025 16:34:37.337] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01Jan2025 16:34:37.337] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[01Jan2025 16:34:37.469] [Server thread/INFO] [portb.configlib.ConfigLib/]: Reading stacksize ruleset
+[01Jan2025 16:34:37.475] [Config file watcher thread/INFO] [portb.configlib.ConfigLib/]: Starting config file watcher
+[01Jan2025 16:34:37.490] [Server thread/WARN] [potionstudios.byg.BYG/]: "minecraft:none" is not a registered villager profession, skipping trade entry...
+[01Jan2025 16:34:37.494] [Server thread/WARN] [potionstudios.byg.BYG/]: "minecraft:nitwit" is not a registered villager profession, skipping trade entry...
+[01Jan2025 16:34:38.255] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[01Jan2025 16:34:38.256] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[01Jan2025 16:34:38.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[01Jan2025 16:34:45.219] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jan2025 16:34:45.485] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jan2025 16:34:45.514] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jan2025 16:34:45.530] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jan2025 16:34:45.557] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jan2025 16:34:45.577] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jan2025 16:34:45.649] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jan2025 16:34:45.650] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jan2025 16:34:45.690] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jan2025 16:34:45.731] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jan2025 16:34:45.833] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jan2025 16:34:45.861] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jan2025 16:34:45.863] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jan2025 16:34:45.865] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jan2025 16:34:45.908] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jan2025 16:34:46.432] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jan2025 16:34:46.895] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[01Jan2025 16:34:47.396] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
+[01Jan2025 16:34:47.935] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 9041 ms
+[01Jan2025 16:34:47.937] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (10.586s)! For help, type "help"
+[01Jan2025 16:34:47.996] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[01Jan2025 16:34:48.013] [Server thread/INFO] [cyclopscore/]: Loading infobook /data/cyclopscore/info/test.xml
+[01Jan2025 16:34:48.040] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[01Jan2025 16:34:48.041] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[01Jan2025 16:34:48.041] [Server thread/INFO] [evilcraft/]: Loading infobook /data/evilcraft/info/book.xml
+[01Jan2025 16:34:48.084] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:witherer has no valid items
+[01Jan2025 16:34:48.085] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:hungerer has no valid items
+[01Jan2025 16:34:48.086] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:kamikaze has no valid items
+[01Jan2025 16:34:48.086] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:withershield has no valid items
+[01Jan2025 16:40:40.780] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[01Jan2025 16:40:40.851] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@2676bbb6
+[01Jan2025 16:40:40.872] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: xNeo1985[/[0:0:0:0:0:0:0:1%0]:54286] logged in with entity id 172 at (-28.535422739021964, 104.0, -27.219634875087866)
+[01Jan2025 16:40:40.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xNeo1985 joined the game
+[01Jan2025 16:40:41.133] [Server thread/INFO] [Jade/]: Syncing config to xNeo1985 (9581312b-5d3b-3583-b189-ae445aab7e12)
+[01Jan2025 16:41:10.754] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xNeo1985 lost connection: Timed out
+[01Jan2025 16:41:10.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xNeo1985 left the game
+[01Jan2025 16:41:58.184] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@625e2679
+[01Jan2025 16:41:58.194] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: xNeo1985[/[0:0:0:0:0:0:0:1%0]:51674] logged in with entity id 267 at (-28.535422739021964, 104.0, -27.219634875087866)
+[01Jan2025 16:41:58.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xNeo1985 joined the game
+[01Jan2025 16:41:58.259] [Server thread/INFO] [Jade/]: Syncing config to xNeo1985 (9581312b-5d3b-3583-b189-ae445aab7e12)
+[01Jan2025 16:42:30.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xNeo1985> pera
+[01Jan2025 16:42:47.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xNeo1985> [name:"Muerte 00:02:30 01-01-2025", x:-509, y:76, z:1537, dim:minecraft:overworld]
+[01Jan2025 16:42:49.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xNeo1985> ahi esta
